@@ -1,0 +1,190 @@
+/* Resetting default browser styles */
+html, body, div, span, a, input, form, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Vazir', sans-serif;
+    box-sizing: border-box; /* Ensures padding and borders are included in width and height */
+}
+
+/* General body styles */
+body {
+    background: linear-gradient(135deg, #00b0ff, #ffffff); /* Background with light blue and white */
+    color: #333; /* Darker text for better readability */
+    font-size: 16px;
+    text-align: right;
+    direction: rtl;
+    padding: 20px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.8); /* Lighter background for container */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+/* Header styling */
+#content {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    position: relative;
+    color: #00b0ff; /* Blue color for heading */
+}
+
+h1:before, h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 25%;
+    height: 1px;
+    background: linear-gradient(to left, rgba(0, 176, 255, 0.5), transparent); /* Light blue underline effect */
+}
+
+h1:before {
+    left: 0;
+}
+
+h1:after {
+    right: 0;
+}
+
+/* Form styling */
+#content form {
+    margin: 0;
+}
+
+/* Input fields styling */
+#content form input[type="text"],
+#content form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #00b0ff; /* Blue border */
+    border-radius: 30px;
+    background-color: rgba(0, 176, 255, 0.1); /* Light blue background */
+    color: #333; /* Dark text color for input */
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* Input focus styling */
+#content form input[type="text"]:focus,
+#content form input[type="password"]:focus {
+    background-color: rgba(0, 176, 255, 0.2); /* Darker blue background on focus */
+    border-color: #00a0cc; /* Darker blue border on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 176, 255, 0.8);
+}
+
+/* Submit button styling */
+#content form input[type="submit"] {
+    background: linear-gradient(135deg, #00b0ff, #00a0cc); /* Blue gradient background */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* Submit button hover effect */
+#content form input[type="submit"]:hover {
+    background: linear-gradient(135deg, #00a0cc, #00b0ff); /* Hover effect with reversed gradient */
+}
+
+/* Link styling (for password recovery and sign-up) */
+#content form div a {
+    color: #00b0ff; /* Blue color for links */
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* Link hover effect */
+#content form div a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Adding animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#content {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Button for password recovery and sign-up with enhanced style */
+#content form div a {
+    color: #00b0ff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    background-color: rgba(0, 176, 255, 0.1); /* Light blue background for button */
+}
+
+/* Button hover effect */
+#content form div a:hover {
+    background-color: #00b0ff;
+    color: white;
+    border-color: #00b0ff;
+    box-shadow: 0 4px 10px rgba(0, 176, 255, 0.6);
+}
+
+/* Button background animation */
+#content form div a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 176, 255, 0.4), rgba(0, 176, 255, 0.6));
+    border-radius: 30px;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+/* Button hover effect with background animation */
+#content form div a:hover:after {
+    opacity: 1;
+}

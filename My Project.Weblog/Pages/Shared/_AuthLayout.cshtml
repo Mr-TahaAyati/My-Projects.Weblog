@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <title>ورود به سایت - کدیاد</title>
+    <link rel="stylesheet" type="text/css" href="/authLayout/css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section id="content">
+            @RenderBody()
+            @await RenderSectionAsync("Script", false)
+        </section>
+    </div>
+</body>
+
+</html>
