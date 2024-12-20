@@ -80,8 +80,9 @@ C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\bin\Debug\net5.0\Dat
 C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\My Project.Weblog.csproj.AssemblyReference.cache
 C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Auth\Login.cshtml.g.cs
 C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Auth\Register.cshtml.g.cs
-C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Headers\_MineHeader.cshtml.g.cs
-C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Headers\_SaideNav.cshtml.g.cs
-C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Headers\_TopHeader.cshtml.g.cs
 C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Shared\_AuthLayout.cshtml.g.cs
 C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Shared\_Footer.cshtml.g.cs
+C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\My Project.Weblog.sourcelink.json
+C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Shared\Headers\_MineHeader.cshtml.g.cs
+C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Shared\Headers\_SaideNav.cshtml.g.cs
+C:\Users\Soleimani\source\repos\My Weblog\My Project.Weblog\obj\Debug\net5.0\Razor\Pages\Shared\Headers\_TopHeader.cshtml.g.cs

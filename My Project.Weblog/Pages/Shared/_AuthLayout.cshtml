@@ -1,9 +1,9 @@
 ﻿<!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>ورود به سایت - کدیاد</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" type="text/css" href="/authLayout/css/main.css" />
 </head>
 
@@ -11,8 +11,11 @@
     <div class="container">
         <section id="content">
             @RenderBody()
-            @await RenderSectionAsync("Script", false)
         </section>
+
+        <script src="/js/jquery.min.js"></script>
+        <partial name="_ValidationScriptsPartial" />
+        @await RenderSectionAsync("Scripts", false)
     </div>
 </body>
 
