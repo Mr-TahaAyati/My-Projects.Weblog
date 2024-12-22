@@ -8,6 +8,7 @@ using System.ComponentModel.DataAnnotations;
 namespace My_Project.Weblog.Pages.Auth
 {
     [BindProperties]
+    [ValidateAntiForgeryToken]
     public class RegisterModel : PageModel
     {
        private  readonly IUserService _userService;
@@ -41,6 +42,10 @@ namespace My_Project.Weblog.Pages.Auth
         }
         public IActionResult OnPost()
         {
+            if (ModelState.IsValid == false)
+            {
+                return Page();
+            }
             var result = _userService.RegisterUser(new UserRgesterDto()
             {
                 UserName = UserName,
